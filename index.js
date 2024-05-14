@@ -15,7 +15,7 @@ const app = express()
 const port = process.env.PORT || 8000
 const corsOptions = {
    origin: "https://voyagein-frontend.vercel.app",
-   //credentials: true
+   credentials: true
 }
 
 mongoose.set("strictQuery", false)

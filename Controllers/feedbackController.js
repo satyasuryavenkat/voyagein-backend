@@ -1,4 +1,4 @@
-import Feedback from '../models/Feedback'
+import Feedback from '../models/Feedback.js'
 
 //Create new User
 export const createFeedback = async (req, res) => {

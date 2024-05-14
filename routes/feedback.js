@@ -1,5 +1,5 @@
 import express from 'express'
-import { createFeedback, getAllFeedback } from '../Controllers/FeedbackController'
+import { createFeedback, getAllFeedback } from '../Controllers/feedbackController.js'
 
 import { verifyAdmin, verifyUser } from '../utils/verifyToken.js'
 
